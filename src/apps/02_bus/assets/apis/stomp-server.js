@@ -86,13 +86,6 @@ const $server = {
         return r;
       });
     },
-
-    providers() {
-      return $server.api.execute((e) => ({
-        method: "GET",
-        url: $server.api.url(e, "/oauth2/providers")  
-      }));
-    },
   },
   /////////////////////////////////////
   //
