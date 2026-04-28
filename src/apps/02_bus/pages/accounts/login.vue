@@ -15,14 +15,14 @@
     >
     <v-col cols="12" md="6">
       <v-btn
-        varient="outlined"
+        variant="outlined"
         block
         size="x-large"
         class="d-flex align-center justify-center login-btn"
-        @click="login(provider.url)"
+        @click="login(provider.uri)"
       >
         <span v-if="provider.name.toLowerCase().includes('github')" class="mr-2" style="display: flex; align-items: center;">
-          <v-icon size="28" color="#3333333">mdi-github</v-icon>
+          <v-icon size="28" color="#333333">mdi-github</v-icon>
         </span>
         <span v-else-if="provider.name.toLowerCase().includes('kakao')" class="mr-2" style="display: flex; align-items: center;">
           <v-icon size="28" color="#FEE500">mdi-alpha-k-circle</v-icon>

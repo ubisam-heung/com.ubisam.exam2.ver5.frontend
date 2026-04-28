@@ -301,6 +301,7 @@ export default {
         })
         .catch((e) => {
           console.log(x, "searchAction", 2, e);
+          // this.$router.push("/");
         });
     },
 

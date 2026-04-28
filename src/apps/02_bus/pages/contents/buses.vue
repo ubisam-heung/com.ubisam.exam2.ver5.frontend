@@ -293,7 +293,7 @@ export default {
     busRepairHistoryItemsHeader : [
       { key: "busRepairName", title: "Name", align: "start", width:"30%" },
       { key: "busRepairState", title: "State", align: "center", width:"30%" },
-      { key: "busRepairTimeStamp", title: "Timestamp", align: "end", width:"30%" },
+      { key: "busRepairTimestamp", title: "Timestamp", align: "end", width:"30%" },
     ],
   }),
 
